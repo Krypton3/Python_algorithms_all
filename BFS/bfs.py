@@ -1,11 +1,14 @@
 # directed BFS
+# basic implementation
+
+
 class BFS:
     def __init__(self):
         self.vertex = {}
 
     def print(self):
         for i in self.vertex.keys():
-            print(i, '--->', '---> '.join([str(j) for j in self.vertex[i]]))
+            print(i, '--->', ' ---> '.join([str(j) for j in self.vertex[i]]))
 
     def addEdge(self, source, dest):
         if source in self.vertex.keys():
@@ -18,11 +21,10 @@ class BFS:
         queue = []
         visited[source] = True
         queue.append(source)
-
+        print("BFS Tracking: ")
         while queue:
             source = queue.pop(0)
-            print(source, '--', end='')
-
+            print(source, ' ', end='')
             for i in self.vertex[source]:
                 if visited[i] is False:
                     visited[i] = True
