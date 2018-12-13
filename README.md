@@ -7,7 +7,7 @@ Python implementation of programming aspects
     3. Selection Sort
     4. Quick Sort
     5. Binary Insertion Sort
-  
+
 # Linked List
     1. Linked List
     
@@ -17,3 +17,7 @@ Python implementation of programming aspects
     3. Binary Tree
     4. Floyd Warshall
     5. Segment Tree
+    6. Bellman Ford Algorithm
+    
+# Dynamic Algorithm
+    1. Range minimum query

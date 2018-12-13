@@ -26,7 +26,7 @@ class DFS:
 
     def traverse(self, source):
         visited = [False] * len(self.vertex)
-        print("DFS Tracking: \n")
+        print("Depth First Search Tracking: \n")
         self.search_nodes(source, visited)
 
 
